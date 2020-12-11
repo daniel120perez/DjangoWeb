@@ -104,8 +104,10 @@ CORS_ORIGIN_WHITELIST = (
   'http://34.238.135.150:4200'
   'http://0.0.0.0:4200',
   'http://ec2-34-238-135-150.compute-1.amazonaws.com:4200',
+  'http://ec2-100-25-182-40.compute-1.amazonaws.com:4200',
   'http://workers-pablo.ddns.net:4200'
-
+  'http://workers-app.ddns.net:4200'
+  'http://100.25.182.40:4200'
 )
 
 
