@@ -90,9 +90,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Webdb',
-        'USER': 'Webuserdb',
-        'PASSWORD': 'Perez120',
+        'NAME': 'Webuserdb',
+        'USER': 'Webuser',
+        'PASSWORD': 'Web1234',
         'HOST': 'localhost',
         'PORT': '5432',
     } 
