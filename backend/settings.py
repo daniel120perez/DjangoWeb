@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
     'api',
 
 ]
@@ -88,15 +89,23 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'Webdb',
+        'USER': 'Webdb',
+        'PASSWORD': 'Web1234',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    } 
 }
 
 CORS_ORIGIN_WHITELIST = (
   'http://localhost:4200',
   'http://127.0.0.1:4200',
-  'http://localhost:4200/',
+  'http://34.238.135.150:4200'
+  'http://0.0.0.0:4200',
+  'http://ec2-34-238-135-150.compute-1.amazonaws.com:4200',
+  'http://workers-pablo.ddns.net:4200'
+
 )
 
 
