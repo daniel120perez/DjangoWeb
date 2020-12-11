@@ -92,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'Webdb',
         'USER': 'Webuserdb',
-        'PASSWORD': 'Web1234',
+        'PASSWORD': 'Perez120',
         'HOST': 'localhost',
         'PORT': '5432',
     } 
