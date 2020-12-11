@@ -110,6 +110,8 @@ CORS_ORIGIN_WHITELIST = (
   'http://100.25.182.40:4200'
 )
 
+CORS_ORIGIN_ALLOW_ALL=True
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
