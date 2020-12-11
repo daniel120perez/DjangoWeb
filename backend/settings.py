@@ -91,8 +91,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'Webdb',
-        'USER': 'Webdb',
-        'PASSWORD': 'Perez120',
+        'USER': 'Webuserdb',
+        'PASSWORD': 'Web1234',
         'HOST': 'localhost',
         'PORT': '5432',
     } 
